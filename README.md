@@ -12,3 +12,9 @@ This is my first personal project involving React, Javascript, HTML, and CSS. My
   ### _**Topics covered / learned:**_ 
   * introduction to [React hooks](https://react.dev/reference/react). (useState, useLocation, useEffect).
   * Implementation of onClick state function logic for navbar.
+
+## Thu, Aug. 10, 2023 - (32:47 - 36:14)
+* Initialized Footer.js and Footer.css
+  ### _**Topics covered / learned:**_
+  * The purpose of a footer: summarize links, copyright, etc.
+  * Similar setup to navbar, with use of materialui SvgIcon components.
