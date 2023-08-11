@@ -1,10 +1,11 @@
-import './App.css';
+import './App.css'
 // We import the BrowserRouter implementation from react Dom ; this uses
 // the HTML5 API to update the URL
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
-import Projects from './pages/Projects';
-import Navbar from './components/Navbar';
+import Projects from './pages/Projects'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
   return (
