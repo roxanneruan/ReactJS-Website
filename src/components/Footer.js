@@ -2,6 +2,7 @@
 import React from 'react'
 import EmailIcon from '@material-ui/icons/Email'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import GitHubIcon from '@material-ui/icons/GitHub'
 import '../styles/Footer.css'
 
 function Footer() {
@@ -10,6 +11,7 @@ function Footer() {
       <div className="socialMedia">
         <LinkedInIcon />
         <EmailIcon />
+        <GitHubIcon />
       </div>
       <p> &copy; 2023 roxanneruan.com</p>
     </div>
