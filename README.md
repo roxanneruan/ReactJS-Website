@@ -25,8 +25,10 @@ This is my first personal project involving React, Javascript, HTML, and CSS. My
 ## Fri, Aug 11. 2023 - (41:47 - 53:00)
   * Implemented Home.css style sheet.
   * Imported VerticalTimeline and VerticalTimelineElement from React for Experience.js page. Working through the Experience.js page helped me get more familiar with react elements and how useful they can be for web design. 
+  * Customized Home.js - this proved difficult because even after following the tutorial, branching out on my own and experimenting took a lot of time, effort, and research. I wanted to align my introduction on the left side, but not at the border of the page. So I added a left padding, but then that presented a x-scroll issue which I did not want. It took a while before I read and realized that making the scroll hidden was possible. This might not be the best solution for this problem, but it is my solution as a beginner and as someone who is still learning, and visually, it works for now. 
 
 ### _**Topics covered /learned:**_
   * Flex display and its properties, from [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties). We use column flex direction to style the home page text top to bottom, like a column.
   * [@media rule](https://www.w3schools.com/cssref/css3_pr_mediaquery.php) in CSS style sheets to act as breakpoint for device / viewport dimensions. In our case, [insert github code link here for Home.css example](), this changes the home style properties when the screen is less than 600px.
   * [React vertical timeline elements](https://www.npmjs.com/package/react-vertical-timeline-component) - the whole Experience.js page used this component, which emphasizes the convenience and accessibility of React library to create these web designs.
+  * **_Goal and aspiration for future website redesign / second website project (longer and a bit more advanced than this current one): [ReactJS Portfolio Website](https://www.youtube.com/watch?v=3aCoZudPEKE&ab_channel=CrypticalCoder)_**

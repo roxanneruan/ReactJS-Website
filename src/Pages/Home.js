@@ -21,21 +21,21 @@ function Home() {
         <h1> Skills </h1>
         <ol className="list">
           <li className="item">
-            <h2> skill category 1</h2>
+            <h2> UX / Front-End </h2>
             <span> 
-
+              Currently self-learning ReactJS, HTML, CSS. Figma, User-Research, User-Testing, Wireframing, Prototyping.
             </span>
           </li>
           <li className="item">
-            <h2> skill category 2</h2>
+            <h2> Languages / Tools </h2>
             <span> 
-
+              C, C++, C#, Unity, Object-Oriented Programming, Python, JSON, Git, ReactJS, HTML, CSS, Figma. Currently studying for AWS Cloud Computing Certificate.
             </span>
           </li>
           <li className="item">
-            <h2> skill category 3</h2>
+            <h2> Soft Skills </h2>
             <span> 
-
+              Teamwork, Collaboration, Communication, Empathy, Self-Learning.
             </span>
           </li>
         </ol>

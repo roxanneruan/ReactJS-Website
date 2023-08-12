@@ -8,6 +8,7 @@
     align-items: center;
     font-family: "Arial", sans-serif;
     color: #3e497a;
+    overflow-x: hidden; /* This took me so long to figure out but this hides the extra padding / x scroll */
 }
 
 /* about class with name, desc, and icons */
@@ -20,11 +21,11 @@
     display: flex;
     flex-direction: column; /* so makes text align in column / vertical direction */
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #21325e;
-    color: #f0f0f0; /* color itself is the text color */
-
+    align-items: flex-start; /* text aligned to the left */
+    text-align: left;
+    color: white; /* color itself is the text color */
+    padding-left: 10vh;
+    background-color:dodgerblue;
 }
 
 /* heading in about class (where Name is) */
@@ -32,7 +33,7 @@
     font-family: "Segoe UI", Tahmoa;
     font-size: 60px;
     color: #e9d35b;
-    height: 50px;
+    height: 30px;
 }
 
 .about .prompt {
@@ -50,21 +51,23 @@
 }
 
 .skills {
-    font-size: 35px;
+    font-size: 30px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
+    padding-left: 10vh;
 }
 
 .skills h1 {
-    color: #3e497a
+    color: #3e497a;
+    font-family: "Segoe UI", Tahmoa;
 }
 
 .skills .list {
     list-style: none;
-    width: 60%;
+    width: 70%;
 }
 
 .list span {
@@ -84,8 +87,7 @@
     }
 
     .skills {
-        text-align: center;
-        font-size: 30px;
+        font-size: 25px;
     }
     .list {
         padding: 0;
