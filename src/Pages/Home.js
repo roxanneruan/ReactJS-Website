@@ -3,6 +3,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import EmailIcon from '@material-ui/icons/Email'
 import GithubIcon from '@material-ui/icons/GitHub'
 import '../styles/Home.css'
+import TempPicture from '../images/temp_portrait.jpg'
 
 function Home() {
   return (
@@ -10,14 +11,14 @@ function Home() {
       <div className="about">
         <h2> Hi I'm Roxanne </h2>
         <div className="prompt"> 
-        <p> UI/UX Design | Front-End Development | Software Engineer </p>
-        <LinkedInIcon />
-        <EmailIcon />
-        <GithubIcon />
-        
+          <p> UI/UX Design | Front-End Development | Software Engineer </p>
+          <LinkedInIcon />
+          <EmailIcon />
+          <GithubIcon />   
         </div>
+        <div className="image"></div>
       </div>
-      <div className="skills">
+      <div className="skills"> 
         <h1> Skills </h1>
         <ol className="list">
           <li className="item">
@@ -44,5 +45,6 @@ function Home() {
   )
 }
 // <ol> is ordered list
+ //  <img src={TempPicture} className="picture" alt="" /> 
 
 export default Home

@@ -40,6 +40,16 @@
     width: 40%;
     font-size: 30px;
 }
+
+.about .image {
+    background: url(../images/temp_portrait.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+
+}
  /* svg = Scalable Vector Graphics 
     Benefits: small file size compression, scale to any size without losing clarity,
               great for retina displays, design control for interactivity & filters
