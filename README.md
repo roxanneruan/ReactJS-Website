@@ -32,3 +32,8 @@ This is my first personal project involving React, Javascript, HTML, and CSS. My
   * [@media rule](https://www.w3schools.com/cssref/css3_pr_mediaquery.php) in CSS style sheets to act as breakpoint for device / viewport dimensions. In our case, [insert github code link here for Home.css example](), this changes the home style properties when the screen is less than 600px.
   * [React vertical timeline elements](https://www.npmjs.com/package/react-vertical-timeline-component) - the whole Experience.js page used this component, which emphasizes the convenience and accessibility of React library to create these web designs.
   * **_Goal and aspiration for future website redesign / second website project (longer and a bit more advanced than this current one): [ReactJS Portfolio Website](https://www.youtube.com/watch?v=3aCoZudPEKE&ab_channel=CrypticalCoder)_**
+
+
+* TODO: finish customizing HOME page, figure out how to add image (svg?) to home page. add short about me in home page. and then do projects page.
+
+* used [ReactJS Portfolio Website](https://www.youtube.com/watch?v=3aCoZudPEKE&ab_channel=CrypticalCoder)_** 38:49 to help with inputting images. Now just need to move to right side.
