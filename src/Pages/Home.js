@@ -8,9 +8,9 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, My Name is Roxanne</h2>
+        <h2> Hi I'm Roxanne </h2>
         <div className="prompt"> 
-        <p> Short descrpition about myself here.</p>
+        <p> UI/UX Design | Front-End Development | Software Engineer </p>
         <LinkedInIcon />
         <EmailIcon />
         <GithubIcon />
