@@ -1,0 +1,97 @@
+/* Courtesy of Pedro Henrique Ferraz Machado
+   https://github.com/machadop1407/react-personal-portfolio-website/blob/master/src/styles/Home.css
+*/
+
+/* home parent class */
+.home {
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #3e497a;
+}
+
+/* about class with name, desc, and icons */
+.about {
+    width: 100%;
+    height: calc(100vh - 100px); /* calc() performs calculations to specify CSS property values. 
+                                    1vh = 1% of viewport's height. So here we take the whole window
+                                    screen height and subtract 100px from it.
+                                 */
+    display: flex;
+    flex-direction: column; /* so makes text align in column / vertical direction */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #21325e;
+    color: #f0f0f0; /* color itself is the text color */
+
+}
+
+/* heading in about class (where Name is) */
+.about h2 {
+    font-family: "Segoe UI", Tahmoa;
+    font-size: 60px;
+    color: #e9d35b;
+    height: 50px;
+}
+
+.about .prompt {
+    width: 40%;
+    font-size: 30px;
+}
+ /* svg = Scalable Vector Graphics 
+    Benefits: small file size compression, scale to any size without losing clarity,
+              great for retina displays, design control for interactivity & filters
+ */
+.prompt svg {
+    font-size: 60px;
+    margin: 5px;
+    color: white;
+}
+
+.skills {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills h1 {
+    color: #3e497a
+}
+
+.skills .list {
+    list-style: none;
+    width: 60%;
+}
+
+.list span {
+    font-size: 20px;
+}
+
+/* Scales for a smaller window size */
+@media only screen and (max-width: 600px) {
+    .about h2 {
+        font-size: 40px;
+    }
+
+    .about .prompt {
+        margin-top: 10px;
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .skills {
+        text-align: center;
+        font-size: 30px;
+    }
+    .list {
+        padding: 0;
+    }
+
+    .skills h2 {
+        font-size: 30px;
+    }
+}

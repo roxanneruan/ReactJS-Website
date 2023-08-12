@@ -2,6 +2,7 @@ import React from 'react'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import EmailIcon from '@material-ui/icons/Email'
 import GithubIcon from '@material-ui/icons/GitHub'
+import '../styles/Home.css'
 
 function Home() {
   return (
@@ -34,7 +35,7 @@ function Home() {
           <li className="item">
             <h2> skill category 3</h2>
             <span> 
-              
+
             </span>
           </li>
         </ol>
