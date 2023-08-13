@@ -2,54 +2,73 @@
    https://github.com/machadop1407/react-personal-portfolio-website/blob/master/src/styles/Home.css
 */
 
+
+
 /* home parent class */
-.home {
+/* .home {
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
     color: #3e497a;
-    overflow-x: hidden; /* This took me so long to figure out but this hides the extra padding / x scroll */
-}
-
-/* about class with name, desc, and icons */
-.about {
-    width: 100%;
-    height: calc(100vh - 100px); /* calc() performs calculations to specify CSS property values. 
-                                    1vh = 1% of viewport's height. So here we take the whole window
-                                    screen height and subtract 100px from it.
-                                 */
+    overflow-x: hidden;
     display: flex;
-    flex-direction: column; /* so makes text align in column / vertical direction */
-    justify-content: center;
-    align-items: flex-start; /* text aligned to the left */
-    text-align: left;
-    color: white; /* color itself is the text color */
-    padding-left: 10vh;
-    background-color:dodgerblue;
+} */
+
+.home {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #3e497a;
+    overflow-x: hidden; 
+    flex-direction: column;
 }
 
-/* heading in about class (where Name is) */
+.about {
+    display: flex;
+    /* flex-direction: row; */
+    width: 100%;
+    height: calc(100vh - 100px);
+    justify-content: center;
+    text-align: center;
+    background-color:lightblue;
+}
+
 .about h2 {
     font-family: "Segoe UI", Tahmoa;
     font-size: 60px;
-    color: #e9d35b;
-    height: 30px;
-}
+    color: #3e497a;
+} 
 
 .about .prompt {
-    width: 40%;
+    width: 100%;
     font-size: 30px;
+}
+
+.about .about-me-text{
+    font-size: 20px;
 }
 
 .about .image {
     background: url(../images/temp_portrait.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
+} 
+
+.about .right-half {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.about .left-half {
+    display:flex;
+    flex-direction: column;
+    padding: 2rem;
 
 }
+
  /* svg = Scalable Vector Graphics 
     Benefits: small file size compression, scale to any size without losing clarity,
               great for retina displays, design control for interactivity & filters
@@ -61,13 +80,14 @@
 }
 
 .skills {
+    flex: 1;
+    padding: 2rem;
     font-size: 30px;
     width: 100%;
     display: flex;
-    justify-content: right;
+    justify-content: left;
     flex-direction: column;
-    align-items: right;
-    padding-left: 10vh;
+    align-items: center;
 }
 
 .skills h1 {
@@ -86,14 +106,27 @@
 
 /* Scales for a smaller window size */
 @media only screen and (max-width: 600px) {
+    .home {
+        flex-direction: column;
+    }
     .about h2 {
         font-size: 40px;
+        flex-direction: column;
+    }
+
+    .about .left-half {
+        flex: none;
+        padding: none;
     }
 
     .about .prompt {
         margin-top: 10px;
         font-size: 20px;
         width: 80%;
+    }
+
+    .about .image {
+        display: none;
     }
 
     .skills {
