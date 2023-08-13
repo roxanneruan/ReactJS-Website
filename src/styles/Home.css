@@ -1,0 +1,142 @@
+/* Courtesy of Pedro Henrique Ferraz Machado
+   https://github.com/machadop1407/react-personal-portfolio-website/blob/master/src/styles/Home.css
+*/
+
+
+
+/* home parent class */
+/* .home {
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #3e497a;
+    overflow-x: hidden;
+    display: flex;
+} */
+
+.home {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #3e497a;
+    overflow-x: hidden; 
+    flex-direction: column;
+}
+
+.about {
+    display: flex;
+    /* flex-direction: row; */
+    width: 100%;
+    height: calc(100vh - 100px);
+    justify-content: center;
+    text-align: center;
+    background-color:lightblue;
+}
+
+.about h2 {
+    font-family: "Segoe UI", Tahmoa;
+    font-size: 60px;
+    color: #3e497a;
+} 
+
+.about .prompt {
+    width: 100%;
+    font-size: 30px;
+}
+
+.about .about-me-text{
+    font-size: 20px;
+}
+
+.about .image {
+    background: url(../images/temp_portrait.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+} 
+
+.about .right-half {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.about .left-half {
+    display:flex;
+    flex-direction: column;
+    padding: 2rem;
+
+}
+
+ /* svg = Scalable Vector Graphics 
+    Benefits: small file size compression, scale to any size without losing clarity,
+              great for retina displays, design control for interactivity & filters
+ */
+.prompt svg {
+    font-size: 60px;
+    margin: 5px;
+    color: white;
+}
+
+.skills {
+    flex: 1;
+    padding: 2rem;
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills h1 {
+    color: #3e497a;
+    font-family: "Segoe UI", Tahmoa;
+}
+
+.skills .list {
+    list-style: none;
+    width: 70%;
+}
+
+.list span {
+    font-size: 20px;
+}
+
+/* Scales for a smaller window size */
+@media only screen and (max-width: 600px) {
+    .home {
+        flex-direction: column;
+    }
+    .about h2 {
+        font-size: 40px;
+        flex-direction: column;
+    }
+
+    .about .left-half {
+        flex: none;
+        padding: none;
+    }
+
+    .about .prompt {
+        margin-top: 10px;
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .about .image {
+        display: none;
+    }
+
+    .skills {
+        font-size: 25px;
+    }
+    .list {
+        padding: 0;
+    }
+
+    .skills h2 {
+        font-size: 30px;
+    }
+}

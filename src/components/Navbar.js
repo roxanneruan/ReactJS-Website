@@ -1,8 +1,8 @@
 // Components differ from pages ; used across multiple pages.
-import React, { useEffect, useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import '../styles/Navbar.css';
-import ReorderIcon from '@material-ui/icons/Reorder';
+import React, { useEffect, useState } from 'react'
+import { Link, useLocation } from 'react-router-dom'
+import '../styles/Navbar.css'
+import ReorderIcon from '@material-ui/icons/Reorder'
 
 function Navbar() {
     // const boolean to check if navbar button is clicked open or not.
@@ -32,6 +32,7 @@ function Navbar() {
       <div className="links">
         <Link to="/"> Home</Link>
         <Link to="/Projects"> Projects</Link>
+        <Link to="/Experience"> Experience</Link>
       </div>
     </div> 
   )
