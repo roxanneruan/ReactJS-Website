@@ -11,7 +11,7 @@ function Home() {
     <div className='home'>
       <div className='about'>
         <div className='left-half'>
-          <h2> Hi, I'm Roxanne. </h2>
+          <h2> Welcome. </h2>
           <div className='prompt'>
             <hr style={{height:3, color: '#3e497a', backgroundColor: '#3e497a'}}></hr>
             <p> UI/UX Design | Front-End Development | Software Engineer </p>
@@ -40,7 +40,7 @@ function Home() {
         </div>
         <ol className="list">
         <p className="about-me-text"> 
-              Hi! My name is Roxanne Ruan and I am an aspiring <b>front-end developer</b> with experience in web development and UX design. <br></br> <br></br>
+              Hi! My name is Roxanne and I am an aspiring <b>front-end developer</b> with experience in web development and UX design. <br></br> <br></br>
               I'm currently a <b> 3rd year Computer Science</b> student at UC Davis. <br></br>  <br></br> 
               
               <b>My mission in coding and design</b> is to approach problems with a creative and open mind to reach
@@ -49,7 +49,7 @@ function Home() {
               inspire delight through my work. Through my dedication to coding and design, I aim to shape
               the way people interact with the digital world along with others in a harmonious collaboration. <br></br><br></br>
 
-              Check out my <b>Experience</b>to learn more about my <b>proudest achievement in UX Design at UC Davis.</b> <br></br><br></br>
+              Check out my <b>Experience</b> to learn more about my <b>proudest achievement in UX Design at UC Davis.</b> <br></br><br></br>
               
               Explore my <b>Projects</b> page to see my where my curiosity blooms and my skills blossom. <br></br><br></br>
 
